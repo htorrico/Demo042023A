@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo042023A.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Yo soy la página 1" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Ir a Página 2" Clicked="Button_Clicked"></Button>
+            <Button Text="Ir a Página 2 Modal" Clicked="Button_Clicked_1"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

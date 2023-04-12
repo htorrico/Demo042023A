@@ -12,7 +12,9 @@ namespace Demo042023A
 
             //MainPage = new MainPage();
             //MainPage = new NavigationPage( new Page1());
-            MainPage = new TabbedPage1();
+            //MainPage = new TabbedPage1();
+            MainPage = new CarouselPage1();
+
         }
 
         protected override void OnStart()

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo042023A.CarouselPage1">
+
+
+    <ContentPage Title="Tab 1" >
+        <StackLayout>
+                <Button Text="Mi Primer Tab" BackgroundColor="Red"></Button>
+                <Label Text="Yo soy la página 1" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Button Text="Ir a Página 2" ></Button>
+                <Button Text="Ir a Página 2 Modal" ></Button>
+            </StackLayout>
+
+
+        </ContentPage>
+        <ContentPage Title="Tab 2" >
+            <Button Text="Mi Segundo Tab" BackgroundColor="Yellow"></Button>
+        </ContentPage>
+        <ContentPage Title="Tab 3" >
+            <Button Text="Mi Tercer Tab" BackgroundColor="Green"></Button>
+        </ContentPage>
+    <ContentPage Title="Tab 3" >
+        <Button Text="Mi Tercer Tab" BackgroundColor="Orange"></Button>
+    </ContentPage>
+
+</CarouselPage>

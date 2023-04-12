@@ -4,9 +4,18 @@
              x:Class="Demo042023A.TabbedPage1">
   <!--Pages can be added as references or inline-->
     <ContentPage Title="Tab 1" >
-        <Button Text="Mi Primer Tab" BackgroundColor="Red"> </Button>
         
         
+        <StackLayout>
+            <Button Text="Mi Primer Tab" BackgroundColor="Red"></Button>
+            <Label Text="Yo soy la página 1" FontSize="Large"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Ir a Página 2" ></Button>
+            <Button Text="Ir a Página 2 Modal" ></Button>
+        </StackLayout>
+
+
     </ContentPage>
     <ContentPage Title="Tab 2" >
         <Button Text="Mi Segundo Tab" BackgroundColor="Yellow"></Button>

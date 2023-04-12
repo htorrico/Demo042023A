@@ -11,8 +11,8 @@ namespace Demo042023A
             InitializeComponent();
 
             //MainPage = new MainPage();
-
-            MainPage = new NavigationPage( new Page1());
+            //MainPage = new NavigationPage( new Page1());
+            MainPage = new TabbedPage1();
         }
 
         protected override void OnStart()
